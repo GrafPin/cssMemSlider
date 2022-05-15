@@ -4,13 +4,14 @@ input {
 
 body {
   height: 100vh;
+  display: flex;
+  align-items: center;
   background-color: rgb(196, 177, 248);
 }
 
 .wrapper__slider {
+  min-width: 15rem;
   max-width: 50rem;
-  max-height: 50rem;
-  padding-top: 20vh;
   margin: 0 auto 0 auto;
 }
 
