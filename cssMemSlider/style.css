@@ -10,7 +10,8 @@ body {
 .wrapper__slider {
   max-width: 50rem;
   max-height: 50rem;
-  margin: 20vh auto 0 auto;
+  padding-top: 20vh;
+  margin: 0 auto 0 auto;
 }
 
 .wrapper__slides {
