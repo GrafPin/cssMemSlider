@@ -145,3 +145,25 @@ label:active>.slider-button__wrapper>.slider-button {
   background-color: transparent;
   border: 0.11rem solid rgb(151, 247, 159);
 }
+
+@media screen and (max-width: 630px) {
+  .navigation {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    height: 20%;
+  }
+
+  .wrapper__button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .wrapper__text {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 0.9rem;
+  }
+}
